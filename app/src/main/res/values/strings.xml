@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Daily</string>
+    <string name="todo">清单</string>
+    <string name="calendar">计划</string>
+    <string name="clock">专注</string>
+    <string name="clock_start">开始专注</string>
+    <string name="clock_pause">暂停</string>
+    <string name="clock_count">继续</string>
+    <string name="clock_stop">放弃</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="clock_setting_title">番茄设置</string>
+    <string name="clock_setting_cancle">取消</string>
+    <string name="clock_setting_submit">确认</string>
+    <string name="clock_setting_item1_title">专注时间</string>
+</resources>

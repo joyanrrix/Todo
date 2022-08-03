@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_background">
+
+    <EditText
+        android:id="@+id/clock_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center"
+        android:text="25"
+        android:hint="25"
+        android:inputType="number"
+        android:textSize="70sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/clock_progressbar"
+        app:layout_constraintBottom_toBottomOf="@id/clock_progressbar"/>
+
+    <TextView
+        android:id="@+id/clock_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="60sp"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/clock_edittext"
+        app:layout_constraintBottom_toBottomOf="@id/clock_edittext"/>
+
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+        android:id="@+id/clock_progressbar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="120dp"
+        app:cpb_background_progressbar_color="#b6bbd8"
+        app:cpb_background_progressbar_width="5dp"
+        app:cpb_progress_direction="to_right"
+        app:cpb_progressbar_color="#3f51b5"
+        app:cpb_progressbar_width="5dp"
+        app:cpb_round_border="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/clock_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:textSize="20sp"
+        android:textColor="@color/text_lunar"
+        app:layout_constraintBottom_toTopOf="@id/clock_progressbar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/clocl_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="番茄设置"
+        android:textColor="@color/text_lunar"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@id/clock_progressbar"
+        app:layout_constraintBottom_toTopOf="@id/clock_start"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <Button
+        android:id="@+id/clock_start"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@drawable/clock_botton"
+        android:text="@string/clock_start"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clock_progressbar"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/clock_pause"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/clock_botton"
+        android:text="@string/clock_pause"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clock_progressbar"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/clock_count"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/clock_botton"
+        android:text="@string/clock_count"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clock_progressbar"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/clock_stop"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/clock_botton"
+        android:text="@string/clock_stop"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clock_progressbar"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/clock"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

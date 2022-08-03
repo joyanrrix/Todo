@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="RtlHardcoded,HardcodedText,RtlSymmetry,SmallSp">
+
+    <RelativeLayout
+        android:id="@+id/calendar_title"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/content_background">
+
+        <TextView
+            android:id="@+id/calendar_date"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            tools:text="2019年7月"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:id="@+id/calendar_day"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                tools:text="14"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                android:src="@mipmap/ic_calendar"
+                app:tint="#000000" />
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <com.haibin.calendarview.CalendarLayout
+        android:id="@+id/calendarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/content_background"
+        android:orientation="vertical"
+        app:default_status="shrink"
+        app:layout_constraintTop_toBottomOf="@id/calendar_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:calendar_content_view_id="@+id/calendar_recyclerview">
+
+        <com.haibin.calendarview.CalendarView
+            android:id="@+id/calendarview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/content_background"
+            app:max_year="2122"
+            app:min_year="2001"
+            app:month_view="com.example.daily.calendar.ui.MonthView"
+            app:month_view_show_mode="mode_fix"
+            app:week_text_color="@color/text_date"
+            app:week_bar_height="18dp"
+            app:week_background="@color/content_background"
+            app:week_view="com.example.daily.calendar.ui.WeekView"
+            app:week_start_with="sun" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/calendar_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/content_background" />
+
+
+    </com.haibin.calendarview.CalendarLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/calendar_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/scheme_primary"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        android:src="@drawable/bg_addbutton" />
+
+    <com.kongzue.dialogx.util.views.BottomDialogListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

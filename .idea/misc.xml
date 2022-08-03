@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable-v24/bg_ripple.xml" value="0.125" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1155" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/bg_calendar_add.xml" value="0.125" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/bg_checkbutton.xml" value="0.115" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/bg_edittext.xml" value="0.1435" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/bg_ripple.xml" value="0.125" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/calendar_cardview.xml" value="0.125" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/clock_botton.xml" value="0.125" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/ic_add.xml" value="0.125" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/ic_checkbutton_false.xml" value="0.115" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/ic_checkbutton_true.xml" value="0.133" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/ic_clock_pause.xml" value="0.125" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/ic_clock_start.xml" value="0.1305" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/ic_clock_stop.xml" value="0.1305" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/ic_launcher_background.xml" value="0.125" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1155" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/ic_main_calendar.xml" value="0.125" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/ic_main_clock.xml" value="0.125" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/ic_main_todo.xml" value="0.125" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/ic_todo_scheme1.xml" value="0.1435" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/ic_todo_scheme2.xml" value="0.1435" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/ic_todo_scheme3.xml" value="0.1435" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/drawable/ic_todo_scheme4.xml" value="0.1435" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/a.xml" value="0.4466666666666667" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/calendar.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/calendar_add.xml" value="0.3333333333333333" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/calendar_add_row.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/calendar_addview.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/calendar_cardview.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/calendar_item.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/clock.xml" value="0.3333333333333333" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/clock_setting.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/datepicker.xml" value="0.3333333333333333" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/fragment_calendar.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/fragment_clock.xml" value="0.14766970618034447" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/fragment_clock_setting.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/fragment_todo.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/todo.xml" value="0.13229166666666667" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/todo_add.xml" value="0.16893115942028986" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/todo_cardview.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/todo_group.xml" value="0.16893115942028986" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/todo_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/layout/todo_schemepicker.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/menu/clocksetting_menu.xml" value="0.2859375" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/menu/navigation_menu.xml" value="0.2838541666666667" />
+        <entry key="..\:/AndroidStudioProjects/Daily/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

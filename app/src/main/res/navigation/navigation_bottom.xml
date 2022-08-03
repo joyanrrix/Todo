@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_bottom"
+    app:startDestination="@id/calendar">
+
+    <fragment
+        android:id="@+id/calendar"
+        android:name="com.example.daily.calendar.Calendar"
+        android:label="fragment_calendar"
+        tools:layout="@layout/calendar">
+        <action
+            android:id="@+id/action_calendar_to_clock"
+            app:destination="@id/clock" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/clock"
+        android:name="com.example.daily.clock.Clock"
+        android:label="fragment_clock"
+        tools:layout="@layout/clock"/>
+
+    <fragment
+        android:id="@+id/todo"
+        android:name="com.example.daily.todo.Todo"
+        android:label="fragment_todo"
+        tools:layout="@layout/todo" >
+        <action
+            android:id="@+id/action_todo_to_calendar"
+            app:destination="@id/calendar" />
+    </fragment>
+
+</navigation>
